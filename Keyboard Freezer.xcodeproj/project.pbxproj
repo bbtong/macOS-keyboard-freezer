@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD43D13E2160297200FF938C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43D13D2160297200FF938C /* AppDelegate.swift */; };
+		BD43D1402160297200FF938C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43D13F2160297200FF938C /* ViewController.swift */; };
+		BD43D1422160297400FF938C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD43D1412160297400FF938C /* Assets.xcassets */; };
+		BD43D1452160297400FF938C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43D1432160297400FF938C /* Main.storyboard */; };
+		BD43D1512160297400FF938C /* Keyboard_FreezerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43D1502160297400FF938C /* Keyboard_FreezerTests.swift */; };
+		BD43D15C2160297400FF938C /* Keyboard_FreezerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43D15B2160297400FF938C /* Keyboard_FreezerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD43D14D2160297400FF938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD43D1322160297200FF938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD43D1392160297200FF938C;
+			remoteInfo = "Keyboard Freezer";
+		};
+		BD43D1582160297400FF938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD43D1322160297200FF938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD43D1392160297200FF938C;
+			remoteInfo = "Keyboard Freezer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD43D13A2160297200FF938C /* Keyboard Freezer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Freezer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD43D13D2160297200FF938C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD43D13F2160297200FF938C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD43D1412160297400FF938C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD43D1442160297400FF938C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD43D1462160297400FF938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD43D1472160297400FF938C /* Keyboard_Freezer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Keyboard_Freezer.entitlements; sourceTree = "<group>"; };
+		BD43D14C2160297400FF938C /* Keyboard FreezerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard FreezerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD43D1502160297400FF938C /* Keyboard_FreezerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_FreezerTests.swift; sourceTree = "<group>"; };
+		BD43D1522160297400FF938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD43D1572160297400FF938C /* Keyboard FreezerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard FreezerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD43D15B2160297400FF938C /* Keyboard_FreezerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_FreezerUITests.swift; sourceTree = "<group>"; };
+		BD43D15D2160297400FF938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD43D1372160297200FF938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D1492160297400FF938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D1542160297400FF938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD43D1312160297200FF938C = {
+			isa = PBXGroup;
+			children = (
+				BD43D13C2160297200FF938C /* Keyboard Freezer */,
+				BD43D14F2160297400FF938C /* Keyboard FreezerTests */,
+				BD43D15A2160297400FF938C /* Keyboard FreezerUITests */,
+				BD43D13B2160297200FF938C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD43D13B2160297200FF938C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD43D13A2160297200FF938C /* Keyboard Freezer.app */,
+				BD43D14C2160297400FF938C /* Keyboard FreezerTests.xctest */,
+				BD43D1572160297400FF938C /* Keyboard FreezerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD43D13C2160297200FF938C /* Keyboard Freezer */ = {
+			isa = PBXGroup;
+			children = (
+				BD43D13D2160297200FF938C /* AppDelegate.swift */,
+				BD43D13F2160297200FF938C /* ViewController.swift */,
+				BD43D1412160297400FF938C /* Assets.xcassets */,
+				BD43D1432160297400FF938C /* Main.storyboard */,
+				BD43D1462160297400FF938C /* Info.plist */,
+				BD43D1472160297400FF938C /* Keyboard_Freezer.entitlements */,
+			);
+			path = "Keyboard Freezer";
+			sourceTree = "<group>";
+		};
+		BD43D14F2160297400FF938C /* Keyboard FreezerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD43D1502160297400FF938C /* Keyboard_FreezerTests.swift */,
+				BD43D1522160297400FF938C /* Info.plist */,
+			);
+			path = "Keyboard FreezerTests";
+			sourceTree = "<group>";
+		};
+		BD43D15A2160297400FF938C /* Keyboard FreezerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD43D15B2160297400FF938C /* Keyboard_FreezerUITests.swift */,
+				BD43D15D2160297400FF938C /* Info.plist */,
+			);
+			path = "Keyboard FreezerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD43D1392160297200FF938C /* Keyboard Freezer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD43D1602160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard Freezer" */;
+			buildPhases = (
+				BD43D1362160297200FF938C /* Sources */,
+				BD43D1372160297200FF938C /* Frameworks */,
+				BD43D1382160297200FF938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Freezer";
+			productName = "Keyboard Freezer";
+			productReference = BD43D13A2160297200FF938C /* Keyboard Freezer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD43D14B2160297400FF938C /* Keyboard FreezerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD43D1632160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard FreezerTests" */;
+			buildPhases = (
+				BD43D1482160297400FF938C /* Sources */,
+				BD43D1492160297400FF938C /* Frameworks */,
+				BD43D14A2160297400FF938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD43D14E2160297400FF938C /* PBXTargetDependency */,
+			);
+			name = "Keyboard FreezerTests";
+			productName = "Keyboard FreezerTests";
+			productReference = BD43D14C2160297400FF938C /* Keyboard FreezerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD43D1562160297400FF938C /* Keyboard FreezerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD43D1662160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard FreezerUITests" */;
+			buildPhases = (
+				BD43D1532160297400FF938C /* Sources */,
+				BD43D1542160297400FF938C /* Frameworks */,
+				BD43D1552160297400FF938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD43D1592160297400FF938C /* PBXTargetDependency */,
+			);
+			name = "Keyboard FreezerUITests";
+			productName = "Keyboard FreezerUITests";
+			productReference = BD43D1572160297400FF938C /* Keyboard FreezerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD43D1322160297200FF938C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = btong;
+				TargetAttributes = {
+					BD43D1392160297200FF938C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BD43D14B2160297400FF938C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BD43D1392160297200FF938C;
+					};
+					BD43D1562160297400FF938C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BD43D1392160297200FF938C;
+					};
+				};
+			};
+			buildConfigurationList = BD43D1352160297200FF938C /* Build configuration list for PBXProject "Keyboard Freezer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD43D1312160297200FF938C;
+			productRefGroup = BD43D13B2160297200FF938C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD43D1392160297200FF938C /* Keyboard Freezer */,
+				BD43D14B2160297400FF938C /* Keyboard FreezerTests */,
+				BD43D1562160297400FF938C /* Keyboard FreezerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD43D1382160297200FF938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43D1422160297400FF938C /* Assets.xcassets in Resources */,
+				BD43D1452160297400FF938C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D14A2160297400FF938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D1552160297400FF938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD43D1362160297200FF938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43D1402160297200FF938C /* ViewController.swift in Sources */,
+				BD43D13E2160297200FF938C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D1482160297400FF938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43D1512160297400FF938C /* Keyboard_FreezerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD43D1532160297400FF938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43D15C2160297400FF938C /* Keyboard_FreezerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD43D14E2160297400FF938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD43D1392160297200FF938C /* Keyboard Freezer */;
+			targetProxy = BD43D14D2160297400FF938C /* PBXContainerItemProxy */;
+		};
+		BD43D1592160297400FF938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD43D1392160297200FF938C /* Keyboard Freezer */;
+			targetProxy = BD43D1582160297400FF938C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD43D1432160297400FF938C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD43D1442160297400FF938C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD43D15E2160297400FF938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD43D15F2160297400FF938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BD43D1612160297400FF938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Keyboard Freezer/Keyboard_Freezer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard Freezer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-Freezer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BD43D1622160297400FF938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Keyboard Freezer/Keyboard_Freezer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard Freezer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-Freezer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		BD43D1642160297400FF938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard FreezerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-FreezerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Freezer.app/Contents/MacOS/Keyboard Freezer";
+			};
+			name = Debug;
+		};
+		BD43D1652160297400FF938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard FreezerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-FreezerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Freezer.app/Contents/MacOS/Keyboard Freezer";
+			};
+			name = Release;
+		};
+		BD43D1672160297400FF938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard FreezerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-FreezerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Keyboard Freezer";
+			};
+			name = Debug;
+		};
+		BD43D1682160297400FF938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = "Keyboard FreezerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "btong.Keyboard-FreezerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Keyboard Freezer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD43D1352160297200FF938C /* Build configuration list for PBXProject "Keyboard Freezer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD43D15E2160297400FF938C /* Debug */,
+				BD43D15F2160297400FF938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD43D1602160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard Freezer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD43D1612160297400FF938C /* Debug */,
+				BD43D1622160297400FF938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD43D1632160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard FreezerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD43D1642160297400FF938C /* Debug */,
+				BD43D1652160297400FF938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD43D1662160297400FF938C /* Build configuration list for PBXNativeTarget "Keyboard FreezerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD43D1672160297400FF938C /* Debug */,
+				BD43D1682160297400FF938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD43D1322160297200FF938C /* Project object */;
+}
