@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Keyboard_Freezer" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -703,10 +704,62 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Keyboard_Freezer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yD9-wf-oXY">
+                                <rect key="frame" x="177" y="6" width="129" height="23"/>
+                                <buttonCell key="cell" type="roundTextured" title="Developer Website" alternateTitle="btong.me" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PWR-qP-eoF">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4pl-5c-NRs">
+                                <rect key="frame" x="18" y="221" width="444" height="29"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Keyboard Freezer" id="gOB-Iq-Mn0">
+                                    <font key="font" metaFont="system" size="24"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zqO-Nm-BMu">
+                                <rect key="frame" x="24" y="166" width="432" height="65"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="⌨️" id="q9u-aG-bRZ">
+                                    <font key="font" metaFont="system" size="64"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="iVt-eI-evS">
+                                <rect key="frame" x="6" y="76" width="468" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="XZ1-5i-tOF"/>
+                                </constraints>
+                                <textFieldCell key="cell" selectable="YES" alignment="center" id="dmG-if-fhk">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <string key="title">This application is designed to temporarily freeze your keyboard for cleaning purposes, as long as this window is active.  Simply close this window with your mouse to stop the app.</string>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="4pl-5c-NRs" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="32r-D5-bN2"/>
+                            <constraint firstAttribute="bottom" secondItem="yD9-wf-oXY" secondAttribute="bottom" constant="7" id="6VC-V5-m6k"/>
+                            <constraint firstItem="iVt-eI-evS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="8" id="9Hc-XF-5mm"/>
+                            <constraint firstItem="4pl-5c-NRs" firstAttribute="centerX" secondItem="zqO-Nm-BMu" secondAttribute="centerX" id="DoJ-yV-ooK"/>
+                            <constraint firstAttribute="trailing" secondItem="4pl-5c-NRs" secondAttribute="trailing" constant="20" symbolic="YES" id="Dqo-w8-Idh"/>
+                            <constraint firstItem="zqO-Nm-BMu" firstAttribute="centerX" secondItem="iVt-eI-evS" secondAttribute="centerX" id="ar3-0e-frV"/>
+                            <constraint firstItem="yD9-wf-oXY" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="177" id="bDT-G8-AXT"/>
+                            <constraint firstItem="yD9-wf-oXY" firstAttribute="top" secondItem="iVt-eI-evS" secondAttribute="bottom" constant="47" id="dXJ-II-6Zd"/>
+                            <constraint firstItem="zqO-Nm-BMu" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="39" id="eWB-Si-gB3"/>
+                            <constraint firstItem="zqO-Nm-BMu" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="26" id="gYA-oI-Saf"/>
+                            <constraint firstItem="4pl-5c-NRs" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="nBr-Yf-Is7"/>
+                            <constraint firstItem="iVt-eI-evS" firstAttribute="top" secondItem="4pl-5c-NRs" secondAttribute="bottom" constant="88" id="r53-0u-NWj"/>
+                            <constraint firstItem="iVt-eI-evS" firstAttribute="top" secondItem="zqO-Nm-BMu" secondAttribute="bottom" constant="33" id="uM3-AP-nSv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
